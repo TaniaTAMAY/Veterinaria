@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Protest+Guerrilla&family=Protest+Riot&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Protest+Guerrilla&family=Protest+Riot&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalam:wght@300;400;700&display=swap');
+header{
+    background: url("../img/fondo1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.navbar-brand img {
+    width: 50px; /* Ancho deseado */
+    height:auto; /* Altura automática para mantener la proporción */
+
+}
+a.navbar-brand{
+
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Altura automática para mantener la proporción */   
+}
+.bg-nav-rumbo{
+    background: transparent !important;
+
+}
+.bg-nav-rumbo ul li a.nav-link{ 
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid rgb(77, 48, 8);    
+}
+#hero img{
+   
+    width: 220px; /* Ancho deseado */
+    height: 220px;/* Altura automática para mantener la proporción */
+}
+/* seccion inicio */
+#hero{
+    text-align: center;
+    margin-top: 50px;
+    bottom: 500px;   
+}
+#hero h2{
+    font-family: "Lobster", sans-serif;
+    font-size: 56px;
+    color: #9b6c00;
+    margin-bottom: 0;
+}
+#hero h1{
+    color: rgb(36, 3, 3);
+    margin-bottom: 100px;
+    font-size: 33px;
+    font-family: "Protest Riot", sans-serif;
+
+}
+#hero button{
+    background-color: #edbf2a;
+        color: #090909;
+        padding: 10px 20px;
+        font-size: 26px;
+        border-radius: 15px;
+        font-weight: 700;
+        border-color: #6d7001;
+
+}
+/* seccion nosotros */
+
+#NOSOTROS{
+    background: url(../img/fondoo2.jpg);
+    padding: 120px 0;
+    text-align: center;
+    
+}
+#NOSOTROS h2{
+    font-family: "Lobster", sans-serif;
+  font-style: normal;
+    font-weight: 700px;
+    margin-bottom: 40px;
+    font-size: 70px;
+    color: rgb(141, 6, 109);
+    
+}
+#NOSOTROS p{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+
+}
+#NOSOTROS h3{
+    font-size: 45px;
+    color: rgb(84, 40, 95);
+    font-family: "Lobster", sans-serif;
+    padding-top: -76px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -70px;
+    
+}
+#NOSOTROS li{
+    
+    background-color: #f6d0cb;
+    right: 50px;
+    border: 10px;
+    padding-top: 11px;
+    font-family: "Protest Riot", sans-serif;
+    bottom: -300px;
+    
+    
+}
+/* seccion planes */
+#planes.plan h3{
+    color: #d1d115;
+    position: absolute;
+    z-index: 99;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center; 
+
+}
+#SERVICIOS h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: #0d0d5b;
+    text-align: center;  
+}
+#SERVICIOS h3{
+    color: #090909;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+}
+#SERVICIOS img{
+   transform: translate(150px);
+
+}
+
+.card{
+    display: block;
+}
+
+/* seccion contacto */
+#CONTACTO{
+    background-image: url(../img/fon.jpg);
+    width: 100%;
+    background-color: #f6f8be;
+    text-align: center;
+    padding: 150px 0;
+}
+#CONTACTO h2{
+    color: #6d7001;
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    
+}
+#CONTACTO p{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#CONTACTO form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+#CONTACTO form input,
+#CONTACTO form select,#ciudad{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+#CONTACTO form button{
+    padding: 10px 60px;
+    font-size: 18px;
+    background-color: #ccb417;
+    margin-top: 40px;
+    color: rgb(6, 0, 0);
+    border: 1px solid #0a0a01;
+   
+}
+/* seccion donaciones */
+#DONACIONES{
+    background-image: url(../img/fondo5.jpg);
+    background-color: #090909;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+#DONACIONES button{
+    background-color: #fadef9;
+    padding: 25px 20px;
+    margin: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+#DONACIONES h1{
+    font-family: "Protest Riot", sans-serif;
+    color: #a54ae1;
+}
+#DONACIONES p,
+#DONACIONES h3{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#DONACIONES h2{
+    font-family: "Kalam", cursive;
+      font-size: 40px;
+      color: #f5c8fd;
+}
+#DONACIONES button{
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+}
+/* seccion recomendados */
+#RECOMENDACIONES{
+    background-image: url(../img/huellasfo.jpg);
+}
+#RECOMENDACIONES .card{
+    background-color: #f5f5eb;
+}
+#RECOMENDACIONES .card:hover{
+    transform: translate(-15px);
+
+}
+#RECOMENDACIONES li,
+#RECOMENDACIONES p{
+    font-family: "Kalam", cursive;
+    font-size: 19px;
+}
+#RECOMENDACIONES h3{
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-size: 40px;
+    color: #a09321;
+
+}
+#RECOMENDACIONES h5 {
+    color: #817206; 
+
+}
+#RECOMENDACIONES h4{
+    font-family: "Kalam", cursive;
+    color: #7f7004;
+   
+}
+.final{
+  
+    background-color: #090909;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: #fff;
+
+}
+/* animaciones */
+#hero img{
+    transition: .8s;
+}
+nav img:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    box-shadow: 4px 4px 0 1px rgb(148, 9, 183);
+}
+#NOSOTROS img:hover{
+    transform: scale(1.3) ;
+}
+#final img:hover{
+    transform: scale(1.1);
+}
+
